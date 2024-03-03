@@ -1,0 +1,74 @@
+*{
+ font-family: 'Times New Roman', Times, serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+
+  
+}
+body{
+background: red;
+
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 20px;
+  background: cadetblue;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  font-size: 30px;
+  
+
+}
+.navbar a{
+  color: #ededed;
+  text-decoration: none;
+
+
+}
+.navbar a:hover{
+  color: blue;
+
+
+}
+
+.Home{
+  display: flex;
+  align-items: center;
+  height: 40vh;
+  padding: 0px 20px;
+  font-size: 20px;
+  background: pink;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+
+
+.About{
+display: flex;
+align-items: center;
+height: 50vh;
+padding: 0px 20px;
+border-style: solid;
+border-radius: 30px;
+background: pink;
+font-size: 20px;
+}
+.Project{
+  display: flex;
+align-items: center;
+height: 50vh;
+padding: 0px 20px;
+border-style: solid;
+border-radius: 30px;
+background: pink;
+font-size: 20px;
+}
